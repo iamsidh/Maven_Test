@@ -12,8 +12,14 @@ public class Reports {
     }
 
     @Test (priority = 0)
-    public void setup2(){
+    public void setup5(){
 
-        System.out.println("inside setup 2");
+        System.out.println("inside setup 4");
+    }
+
+    @Test (priority = 3)
+    public void setup3(){
+
+        System.out.println("inside setup 3");
     }
 }
